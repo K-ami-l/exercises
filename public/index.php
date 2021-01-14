@@ -14,10 +14,10 @@
         <h1>Stationery Application</h1>
         <p>Welcome to this fictional stationery
             application page created for ISAD251 example. To continue please accept our terms and conditions</p>
-        <form method="POST" action="agreement.php">
-            <input type="radio" name="choice" value="First" checked>I agree<br>
-            <input type="radio" name="choice" value="Second">I disagree
-            <input type="submit" value="Submit" name="Submit">
+        <form method="GET" action="agreement.php">
+            <input type="radio" name="choice" value=" I agree" checked>I agree<br>
+            <input type="radio" name="choice" value="I disagree">I disagree
+            <input type="submit" name="submit">
         </form>
     </div>
 </body>
